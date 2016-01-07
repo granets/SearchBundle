@@ -1,0 +1,17 @@
+{# Mihail/SearchBundle/Resources/views/randomsearch/search_form.html.twig #}
+
+{{ form_start(form)}}
+	
+	{{ form_label(form.searchFor) }}
+	{{ form_widget(form.searchFor) }}
+	{{ form_errors(form.searchFor) }}
+
+	{{ form_label(form.searchDir) }}
+	{{ form_widget(form.searchDir) }}
+	{{ form_errors(form.searchDir) }}
+
+	{{ form_label(form.fileType) }}
+	{{ form_widget(form.fileType) }}
+	{{ form_errors(form.fileType) }}
+
+{{ form_end(form)}}
