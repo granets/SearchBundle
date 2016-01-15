@@ -36,7 +36,7 @@ class AppKernel extends Kernel
     // ...
 }
 ```
-Step 3: You are all set
+Step 3: Add bundle to routing file
 -----------------------
 Add the folowing to 'app/config/routing.yml'
 ```yml
