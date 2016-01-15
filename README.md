@@ -4,16 +4,7 @@ Installation
 Step 1: Download the Bundle
 ---------------------------
 
-Open a command console, enter your project directory and execute the
-following command to download the latest stable version of this bundle:
-
-```bash
-$ composer require <package-name> "~1"
-```
-
-This command requires you to have Composer installed globally, as explained
-in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
-of the Composer documentation.
+Download the Zip File from Github and extract it to your Symfony2 directory in the 'src/' subdirectory.
 
 Step 2: Enable the Bundle
 -------------------------
@@ -33,7 +24,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new <vendor>\<bundle-name>\<bundle-long-name>(),
+            new Mihail\SearchBundle\MihailSearchBundle(),
         );
 
         // ...
@@ -42,3 +33,7 @@ class AppKernel extends Kernel
     // ...
 }
 ```
+Step 3: You are all set
+-----------------------
+
+Start your server and go to '/search' to test out the bundle.
