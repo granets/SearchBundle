@@ -1,5 +1,5 @@
 {
-  "name": "Mihail/SearchBundle",
+  "name": "mihail/search-bundle",
   "type": "bundle",
   "description": "Search for Symfony2.8",
   "keywords": ["search"],
