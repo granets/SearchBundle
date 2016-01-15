@@ -49,9 +49,9 @@
  
  	    	if(isset($finder) && count($finder)>0)
  	    	{
- 	    		echo "<h3><center>Found results in $searchDir: </center></h3><br/>";
+ 	    		echo "<h3>Found results in $searchDir: </h3><br/>";
  	    		foreach ($finder as $key => $value) {
- 					echo "<h4><center> $value contains '$searchFor' </center></h4>";
+ 					echo "<h4> $value contains '$searchFor' </h4>";
  				}
  	    	}else{
  	    		echo "No content '$searchFor' in '$searchDir'";

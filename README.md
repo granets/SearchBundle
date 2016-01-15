@@ -38,5 +38,10 @@ class AppKernel extends Kernel
 ```
 Step 3: You are all set
 -----------------------
-
-Start your server and go to '/search' to test out the bundle.
+Add the folowing to 'app/config/routing.yml'
+```yml
+mihail_search:
+    resource: "@MihailSearchBundle/Controller/"
+    type:     annotation
+    prefix:   /
+```
