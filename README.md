@@ -4,12 +4,15 @@ Installation
 Step 1: Download the Bundle
 ---------------------------
 
-Download the Zip File from Github and extract it to your Symfony2 directory in the 'src/' subdirectory.
+Download the Zip File from Github.
+Extract files and rename the main folder to 'SearchBundle'(remove '-master').
+Place the folder in 'src/Mihail/'(you will have to create the folder with
+the vendor name Mihail). Structure after this: 'src/Mihail/SearchBundle/...'
 
 Step 2: Enable the Bundle
 -------------------------
 
-Then, enable the bundle by adding it to the list of registered bundles
+Enable the bundle by adding it to the list of registered bundles
 in the `app/AppKernel.php` file of your project:
 
 ```php
